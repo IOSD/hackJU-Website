@@ -1414,3 +1414,12 @@ textarea {
 .social-icon .google:hover {
   background: #CE332A;
 }
+.social-icon .youtube:hover {
+  background: #ff0000;
+}
+.social-icon .twitch:hover {
+  background: #6441a4;
+}
+.social-icon .github:hover {
+  background: #000;
+}
