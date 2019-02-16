@@ -780,7 +780,8 @@
           </div>
           <div class="col-lg-5 col-md-12 col-xs-12">
             <div class="map">
-              <object style="border:0; height: 280px; width: 100%;" data="https://www.google.com/maps/place/JU+Administrative+Building(Aurobindo+Bhavan)/@22.5286828,88.3557998,13z/data=!4m8!1m2!2m1!1sjadavpur+university!3m4!1s0x3a027123349ba749:0x469dd1f5e2454c12!8m2!3d22.4966228!4d88.372389"></object>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58965.58060576355!2d88.355704741761!3d22.528603562462425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0271237f28abe9%3A0xd047bab0c8bfb11c!2sJadavpur+University!5e0!3m2!1sen!2sin!4v1550314238964" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <!-- <object style="border:0; height: 280px; width: 100%;" data="https://www.google.com/maps/place/JU+Administrative+Building(Aurobindo+Bhavan)/@22.5286828,88.3557998,13z/data=!4m8!1m2!2m1!1sjadavpur+university!3m4!1s0x3a027123349ba749:0x469dd1f5e2454c12!8m2!3d22.4966228!4d88.372389"></object> -->
             </div>
           </div>
         </div>
@@ -898,6 +899,21 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
+
+    <style>
+        .map {
+        position: relative;
+        padding-bottom: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+     
+    </style>
  
   </body>
 </html>
