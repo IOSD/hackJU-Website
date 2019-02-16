@@ -1423,3 +1423,9 @@ textarea {
 .social-icon .github:hover {
   background: #000;
 }
+.social-icon .whatsapp:hover {
+  background: #25D366;
+}
+.social-icon .gmail:hover {
+  background: #B23121;
+}
